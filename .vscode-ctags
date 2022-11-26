@@ -1,0 +1,72 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/snowcrash/MRU/3SAT/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+CNF	lib/build_formula.h	/^} CNF;$/;"	t	typeref:struct:Conjunct_Container
+Conjunct_Container	lib/build_formula.h	/^typedef struct Conjunct_Container$/;"	s
+FAIL_SIZE	lib/test_input.h	/^#define FAIL_SIZE /;"	d
+FORMULA	lib/build_formula.h	/^} FORMULA;$/;"	t	typeref:struct:__anon76c283c60108
+INC_3SAT_3649_DISJUNCTS_H	lib/build_formula.h	/^#define INC_3SAT_3649_DISJUNCTS_H$/;"	d
+INC_3SAT_3649_PARSE_LITERALS_H	lib/parse_literals.h	/^#define INC_3SAT_3649_PARSE_LITERALS_H$/;"	d
+INC_3SAT_3649_SOLVE_SAT_H	lib/solve_sat.h	/^#define INC_3SAT_3649_SOLVE_SAT_H$/;"	d
+INC_3SAT_3649_STORE_CLAUSE_H	lib/build_3cnf.h	/^#define INC_3SAT_3649_STORE_CLAUSE_H$/;"	d
+INC_3SAT_3649_TEST_INPUT_H	lib/test_input.h	/^#define INC_3SAT_3649_TEST_INPUT_H$/;"	d
+INC_3SAT_3649_VERIFY_SAT_H	lib/verify_sat.h	/^#define INC_3SAT_3649_VERIFY_SAT_H$/;"	d
+PASS_SIZE	lib/test_input.h	/^#define PASS_SIZE /;"	d
+_LITERAL_REMOVED	lib/verify_sat.h	/^#define _LITERAL_REMOVED /;"	d
+_LITERAL_SATISFIED	lib/verify_sat.h	/^#define _LITERAL_SATISFIED /;"	d
+_MAX_LITERALS_	lib/build_formula.h	/^#define _MAX_LITERALS_ /;"	d
+_NO_CUR_LITERAL	lib/build_formula.h	/^#define _NO_CUR_LITERAL /;"	d
+__ASCII	lib/build_formula.h	/^#define __ASCII /;"	d
+__CURRENT_EOF	lib/build_3cnf.h	/^#define __CURRENT_EOF /;"	d
+__DISJUNCT_SYMBOL	lib/parse_literals.h	/^#define __DISJUNCT_SYMBOL /;"	d
+__IN_CLAUSE	lib/build_3cnf.h	/^#define __IN_CLAUSE /;"	d
+__IO_ERROR	lib/parse_literals.h	/^#define __IO_ERROR /;"	d
+__NEGATION_SYMBOL	lib/parse_literals.h	/^#define __NEGATION_SYMBOL /;"	d
+__OR_OF_N_LITERALS	lib/parse_literals.h	/^#define __OR_OF_N_LITERALS /;"	d
+__OUT_CLAUSE	lib/build_3cnf.h	/^#define __OUT_CLAUSE /;"	d
+__anon76c283c60108	lib/build_formula.h	/^{$/;"	s
+add_clause	src/build_3cnf.c	/^void add_clause (void *clause, FORMULA *bf)$/;"	f	typeref:typename:void
+add_conjunct	src/build_formula.c	/^void add_conjunct (FORMULA *p_formula, CNF *p_conjunct)$/;"	f	typeref:typename:void
+add_optimal_to_sat	src/verify_sat.c	/^void add_optimal_to_sat (int literal_to_store, CNF *head, FORMULA *bf)$/;"	f	typeref:typename:void
+add_validated_literals	src/build_formula.c	/^void add_validated_literals (CNF *new_conjunct, void *literals, FORMULA *track_literals)$/;"	f	typeref:typename:void
+build_clause	src/parse_literals.c	/^int build_clause (void *store_clause)$/;"	f	typeref:typename:int
+check_disjunction	src/parse_literals.c	/^int check_disjunction (void)$/;"	f	typeref:typename:int
+check_negation	src/parse_literals.c	/^int check_negation (void)$/;"	f	typeref:typename:int
+check_sat	src/verify_sat.c	/^int check_sat (FORMULA *bf, CNF *head)$/;"	f	typeref:typename:int
+destroy_list	src/build_formula.c	/^void destroy_list (FORMULA *p_formula)$/;"	f	typeref:typename:void
+disjuncts	lib/build_formula.h	/^	char disjuncts[_MAX_LITERALS_];    \/* each conjunct is made up of 3 disjuncted literals *\/$/;"	m	struct:Conjunct_Container	typeref:typename:char[]
+eat_whitespace	src/parse_literals.c	/^int eat_whitespace (void)$/;"	f	typeref:typename:int
+fail_tests	lib/test_input.h	/^static char *fail_tests[] =$/;"	v	typeref:typename:char * []
+first	lib/build_formula.h	/^	struct Conjunct_Container *first; \/* the first conjunct *\/$/;"	m	struct:__anon76c283c60108	typeref:struct:Conjunct_Container *
+get_index	src/verify_sat.c	/^int get_index (CNF *head, int literal_to_find)$/;"	f	typeref:typename:int
+get_literal	src/parse_literals.c	/^int get_literal (void)$/;"	f	typeref:typename:int
+get_optimal_literal	src/verify_sat.c	/^int get_optimal_literal (FORMULA *bf, CNF *head)$/;"	f	typeref:typename:int
+in_clause	src/build_3cnf.c	/^int in_clause (void *clause)$/;"	f	typeref:typename:int
+init_data	src/build_formula.c	/^CNF *init_data (void)$/;"	f	typeref:typename:CNF *
+init_sat_solver	src/solve_sat.c	/^int init_sat_solver (void)$/;"	f	typeref:typename:int
+last	lib/build_formula.h	/^	struct Conjunct_Container *last;  \/* the last conjunct *\/$/;"	m	struct:__anon76c283c60108	typeref:struct:Conjunct_Container *
+main	src/generate_test.c	/^int main (int argc, char **argv)$/;"	f	typeref:typename:int
+main	src/solve_sat.c	/^int main (int argc, char **argv)$/;"	f	typeref:typename:int
+mark_literal	lib/build_formula.h	/^	int  mark_literal[_MAX_LITERALS_]; \/* initialized to -1 marked true if this node chose a liter/;"	m	struct:Conjunct_Container	typeref:typename:int[]
+n_stored_literal	lib/build_formula.h	/^	int n_stored_literal[__ASCII];   \/* tracks the number of times literals show up in disjuncts */;"	m	struct:__anon76c283c60108	typeref:typename:int[]
+negate_literal	src/verify_sat.c	/^int negate_literal (const int lit)$/;"	f	typeref:typename:int
+negate_marked_literal	src/verify_sat.c	/^void negate_marked_literal (FORMULA *bf, int optimal_literal)$/;"	f	typeref:typename:void
+next	lib/build_formula.h	/^	struct Conjunct_Container *next;$/;"	m	struct:Conjunct_Container	typeref:struct:Conjunct_Container *
+pass_tests	lib/test_input.h	/^static char *pass_tests[] =$/;"	v	typeref:typename:char * []
+prev	lib/build_formula.h	/^	struct Conjunct_Container *prev;$/;"	m	struct:Conjunct_Container	typeref:struct:Conjunct_Container *
+print_sat	src/solve_sat.c	/^void print_sat (FORMULA *bf, int is_sat)$/;"	f	typeref:typename:void
+sat_list	lib/build_formula.h	/^	int sat_list[__ASCII];           \/* literal values that satisfy truth in the boolean formula */;"	m	struct:__anon76c283c60108	typeref:typename:int[]
+set_sat	src/verify_sat.c	/^int set_sat (const int optimal_literal, CNF *head, FORMULA *boolean_data)$/;"	f	typeref:typename:int
+store_new_conjunct	src/build_formula.c	/^void store_new_conjunct (void *literals, FORMULA *bf)$/;"	f	typeref:typename:void
+test_fail_stdin	src/generate_test.c	/^void test_fail_stdin (int test_number)$/;"	f	typeref:typename:void
+test_pass_stdin	src/generate_test.c	/^void test_pass_stdin (int test_number)$/;"	f	typeref:typename:void
+track_matching	src/verify_sat.c	/^int track_matching (CNF *head, FORMULA *boolean_data)$/;"	f	typeref:typename:int
+validate_clause	src/build_3cnf.c	/^int validate_clause (void *clause)$/;"	f	typeref:typename:int
